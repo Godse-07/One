@@ -1,4 +1,3 @@
-
 # Conceptual example, replace with specific SDK library calls
 import payment_gateway_sdk 
 
@@ -18,5 +17,4 @@ payment_details = {
 
 # 3. Generate a checkout URL or initiate payment API call
 response = service.collect.checkout(**payment_details) # Method name varies by SDK
-
 print(response) # This response usually contains a URL to redirect the user for payment
