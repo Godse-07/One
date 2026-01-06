@@ -1,4 +1,5 @@
 // user.js
+// this is an important file and this fle should be bug free and error free.
 
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
