@@ -4,7 +4,6 @@
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
-let users = [];
 
 /**
  * Create a new user
