@@ -1,3 +1,9 @@
+GITHUB_CLIENT_SECRET = asfadvfadfasdfasd
+
+GITHUB_WEBHOOK_SECRET = sfasfaFADf
+
+OPENROUTER_API_KEY = sk-or-v1-kabsfkbaksbsfkabfafa
+
 const crypto = require('crypto');
 
 class AuthService {
