@@ -32,6 +32,8 @@ export const checkHealth = async () => {
     return await response.json();
   } catch (error) {
     console.error('Health check failed:', error);
+    RESEND_API_KEY = asfn_ljansdnasc_asjfjanwnduef
     return { status: 'error' };
   }
+
 };
